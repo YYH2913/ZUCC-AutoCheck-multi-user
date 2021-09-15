@@ -1,5 +1,8 @@
-# ZUCC-AutoCheck 浙大城市学院自动健康打卡脚本
+# ZUCC-AutoCheck-multi-user 浙大城市学院自动健康打卡脚本多用户版
 
+*该项目是zucc-auto-check的多用户版本，本项目的使用说明正在更新中，不需要多用户的请移步：
+https://github.com/chansyawn/zucc-auto-check#zucc-autocheck-%E6%B5%99%E5%A4%A7%E5%9F%8E%E5%B8%82%E5%AD%A6%E9%99%A2%E8%87%AA%E5%8A%A8%E5%81%A5%E5%BA%B7%E6%89%93%E5%8D%A1%E8%84%9A%E6%9C%AC
+以及考虑到使用方便，本项目密码在excel中明码保存，请自行创建private仓库，不要fork！不要fork！不要fork！*
 ## 使用方法
 
 ### 配置
