@@ -12,7 +12,8 @@
       "name": "zddy",
       "type": "lbs",
       "title": "自动定位(Automatic location)",
-      "readonly": true
+      "readonly": true,
+      "required": true
     },
     {
       "name": "mqszd",
