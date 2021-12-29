@@ -15,6 +15,7 @@
       "readonly": true,
       "required": true
     },
+    
     {
       "name": "mqszd",
       "type": "citys",
@@ -97,17 +98,7 @@
     {
       "name": "jssfjcs10",
       "type": "radio",
-      "title": "同住家属近14天是否有与疫情中、高风险地区人员的接触史？(Did your family member (s) living together contact any person(s) from medium or high risk area in the past 14 days?)",
-      "required": true,
-      "options": [
-        { "title": "是(Yes)" },
-        { "title": "否(NO)" }
-      ]
-    },
-    {
-      "name": "jssfjcs2",
-      "type": "radio",
-      "title": "同住家属近14天是否有与疑似、确诊人员的接触史？(Did your family members living together contact any COVID-19 suspected or confirmed person(s) in the past 14 days?)",
+      "title": "同住家属近14天是否有与疫情中、高风险地区人员或疑似、确诊人员的接触史？(Did your family member (s) living together contact any person(s) from medium or high risk area in the past 14 days?)",
       "required": true,
       "options": [
         { "title": "是(Yes)" },
@@ -132,6 +123,21 @@
       "options": [
         { "title": "是(Yes)" },
         { "title": "否(NO)" }
+      ]
+    },
+    {
+      "name": "ymjzqk",
+      "type": "radio",
+      "title": "疫苗接种情况?(Vaccination status?)",
+      "required": true,
+      "options": [
+        { "title": "已接种两针剂疫苗（科兴、生物等）第一针" },
+        { "title": "已接种两针剂疫苗（科兴、生物等）第二针" },
+        { "title": "已接种两针剂疫苗（科兴、生物等）加强针" },
+        { "title": "已接种三针剂疫苗（安徽智飞）第一针" },
+        { "title": "已接种三针剂疫苗（安徽智飞）第二针" },
+        { "title": "已接种三针剂疫苗（安徽智飞）第三针" },
+        { "title": "未接种疫苗" }
       ]
     },
     {
@@ -173,6 +179,7 @@
     "同住家属近14天是否有与疑似、确诊人员的接触史？(Did your family members living together contact any COVID-19 suspected or confirmed person(s) in the past 14 days?)": "否(NO)",
     "同住家属近14天是否到过疫情中、高风险地区？(Have any family members living together been to medium or high risk area in the past 14 days?)": "否(NO)",
     "同住家属现是否处于医学观察状态?(Are the family members living together under medical observation?)": "否(NO)",
+    "疫苗接种情况?(Vaccination status?)": "",
     "今日申领学校所在地健康码的颜色? What's the color of today's health code?": "绿码(Green code)",
     "本人或家庭成员(包括其他亲密接触人员)是否有近28日入境或未来7日拟入境的情况?Have you or your family members(including other close contact persons) entered China over the past 28 days or plan to enter China in 7 days?": "否 No"
   }
