@@ -57,6 +57,17 @@ https://github.com/chansyawn/zucc-auto-check#zucc-autocheck-%E6%B5%99%E5%A4%A7%E
    | LOCATION      | 目前所在地       | 建议从 [打卡网页](http://yqdj.zucc.edu.cn/feiyan_api/h5/html/daka/daka.html) 选择填写后复制 |
    | AUTO_POSITION | 自动定位         | 建议从 [打卡网页](http://yqdj.zucc.edu.cn/feiyan_api/h5/html/daka/daka.html) 选择填写后复制 |
    | SCKEY（选填） | 微信推送服务     | 详见 [Sever酱](http://sc.ftqq.com/) 配置微信推送打卡结果     |
+   | Vaccination_status | 疫苗接种情况     | 从下列选项中选择     |
+   "options": [
+        { "title": "已接种两针剂疫苗（科兴、生物等）第一针" },
+        { "title": "已接种两针剂疫苗（科兴、生物等）第二针" },
+        { "title": "已接种两针剂疫苗（科兴、生物等）加强针" },
+        { "title": "已接种三针剂疫苗（安徽智飞）第一针" },
+        { "title": "已接种三针剂疫苗（安徽智飞）第二针" },
+        { "title": "已接种三针剂疫苗（安徽智飞）第三针" },
+        { "title": "未接种疫苗" }
+      ]
+
 
 ### 使用
 
