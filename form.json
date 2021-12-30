@@ -8,6 +8,7 @@
       "defaultval": "now",
       "required": true
     },
+
     {
       "name": "zddy",
       "type": "lbs",
@@ -15,7 +16,6 @@
       "readonly": true,
       "required": true
     },
-    
     {
       "name": "mqszd",
       "type": "citys",
@@ -129,7 +129,6 @@
       "name": "ymjzqk",
       "type": "radio",
       "title": "疫苗接种情况?(Vaccination status?)",
-      "required": true,
       "options": [
         { "title": "已接种两针剂疫苗（科兴、生物等）第一针" },
         { "title": "已接种两针剂疫苗（科兴、生物等）第二针" },
