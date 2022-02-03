@@ -1,5 +1,6 @@
 {
   "questions": [
+
     {
       "name": "tbrq",
       "type": "datetime",
@@ -8,7 +9,6 @@
       "defaultval": "now",
       "required": true
     },
-
     {
       "name": "zddy",
       "type": "lbs",
@@ -147,7 +147,8 @@
       "options": [
         { "title": "绿码(Green code)" },
         { "title": "黄码(Yellow code)" },
-        { "title": "红码(Red code)" }
+        { "title": "红码(Red code)" },
+        { "title": "橙色(Orange code)" }
       ]
     },
     {
