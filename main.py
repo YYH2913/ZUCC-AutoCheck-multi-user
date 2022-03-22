@@ -9,12 +9,12 @@ table = pd.read_excel('data.xls')
 
 users=table.iloc[:,0]
 pw=table.iloc[:,1]
-LOCATION=table.iloc[:,2]
+#LOCATION=table.iloc[:,2]
 AUTO_POSITION=table.iloc[:,3]
 SCKEY=table.iloc[:,4]
 Vaccination_status=table.iloc[:,5]
 
-def sign(school_id, password,vaccination_status, location='校内 校内 校内', auto_position='浙江省 杭州市'):
+def sign(school_id, password,vaccination_status,auto_position='浙江省 杭州市 拱墅区'):
     # 获取 JSESSIONID
     #school_id = school_id.strip()
     #password = password.strip()
@@ -66,7 +66,6 @@ def sign(school_id, password,vaccination_status, location='校内 校内 校内'
                 answer["填报日期(Date)"] = str(
                     datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=8))).date())
                 answer["自动定位(Automatic location)"] = auto_position
-                answer["目前所在地"] = location
                 answer["疫苗接种情况?(Vaccination status?)"] = vaccination_status
                 data = json.dumps({"examenSchemeId": 2, "examenTitle": "师生报平安", "answer": answer})
                 headers = {'Content-Type': 'application/json'}
@@ -112,7 +111,7 @@ if __name__ == '__main__':
     succeed="\n打卡成功:\n"
     done="\n今日已打卡:\n" 
     for i in range(0,a):
-        msg = sign(users[i], pw[i],Vaccination_status[i], LOCATION[i], AUTO_POSITION[i])
+        msg = sign(users[i], pw[i],Vaccination_status[i],AUTO_POSITION[i])
         print(msg)
         if msg=='打卡成功':
             succeed=succeed+str(users[i])+str(',')

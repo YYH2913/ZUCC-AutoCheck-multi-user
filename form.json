@@ -1,6 +1,5 @@
 {
   "questions": [
-
     {
       "name": "tbrq",
       "type": "datetime",
@@ -13,13 +12,6 @@
       "name": "zddy",
       "type": "lbs",
       "title": "自动定位(Automatic location)",
-      "readonly": true,
-      "required": true
-    },
-    {
-      "name": "mqszd",
-      "type": "citys",
-      "title": "目前所在地",
       "readonly": true,
       "required": true
     },
@@ -166,7 +158,6 @@
   "answer": {
     "填报日期(Date)": "",
     "自动定位(Automatic location)": "",
-    "目前所在地": "",
     "近14天是否有与疫情中、高风险地区人员的接触史？(In the past 14 days, did you contact any person(s) from medium or high risk area of the epidemic?)": "否(NO)",
     "近14天是否有与疑似、确诊人员的接触史?(In the past 14 days, did you contact any COVID-19 suspected or confirmed person(s)?)": "否(NO)",
     "近21天是否有中高风险地区旅居史，近14天是否有中高风险地区所在区旅居史？( In the past 21 days, have you been to medium or high-risk area? In the past 14 days, have you been to any places close to medium or high risk area?)": "否",
