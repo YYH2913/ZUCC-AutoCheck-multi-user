@@ -107,6 +107,9 @@ def wechatNotice(SCKey, message,note):
 
 if __name__ == '__main__':
     a=len(users)
+    count_s=0
+    count_d=0
+    count_f=0
     fail="打卡失败:\n"
     succeed="\n打卡成功:\n"
     done="\n今日已打卡:\n" 
@@ -114,11 +117,18 @@ if __name__ == '__main__':
         msg = sign(users[i], pw[i],Vaccination_status[i],AUTO_POSITION[i])
         print(msg)
         if msg=='打卡成功':
-            succeed=succeed+str(users[i])+str(',')
+            succeed = succeed+str(users[i])+str(',')
+            count_s = count_s + 1
         elif msg=='今日已打卡':
             done=done+str(users[i])+str(',')
+            count_d = count_d + 1
         elif (msg=='打卡失败') or msg=='无法获取 JSESSIONID，请检查账号和密码':
             fail=fail+str(users[i])+str(',')
+            count_f = count_f + 1
+        if count_f !=0:
+            msg = "存在打卡失败"
+        elif count_s !=0 and count_d !=0:
+            msg = "打卡成功"
     b=len(SCKEY)
     note=succeed+fail+done
     for i in range(0,b):
