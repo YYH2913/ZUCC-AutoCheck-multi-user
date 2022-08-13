@@ -39,7 +39,7 @@
     {
       "name": "jqrsflj",
       "type": "radio",
-      "title": "近7天是否有国内中高风险地区所在区旅居史?( In the past 7 days, have you been to any places close to medium or high risk area?)",
+      "title": "近7天是否有国内高中低风险地区旅居史?( In the past 7 days, have you ever been to any low, medium or high risk areas?)",
       "required": true,
       "options": [
         { "title": "是(Yes)" },
@@ -118,7 +118,7 @@
     "自动定位(Automatic location)": "",
     "今日是否在校？(Are you on campus today?)": "",
     "近2天内是否曾经离杭？(Did you ever leave Hangzhou in past two days?)": "",
-    "近7天是否有国内中高风险地区所在区旅居史?( In the past 7 days, have you been to any places close to medium or high risk area?)": "否(NO)",
+    "近7天是否有国内高中低风险地区旅居史?( In the past 7 days, have you ever been to any low, medium or high risk areas?)": "否(NO)",
     "近7天是否有（或被告知有）与疑似、确诊人员或密切接触者的接触史? (In the past 7 days，did you contact any COVID-19 suspected or confirmed person(s) or close contacts ?)": "否(NO)",
     "现是否处于健康管理（管控）期? 如是，请暂缓来校。(Are you under health management period currently ? If yes, please do not come to school for the time being.) ": "否(NO)",
     "现身体状况，是否存在发热体温、寒战、咳嗽、胸闷以及呼吸困难等症状? (Do you have any symptoms such as fever, chills, cough, chest tightness and dyspnea?)": "否(NO)",
