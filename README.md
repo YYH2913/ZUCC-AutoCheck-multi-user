@@ -33,9 +33,9 @@ https://github.com/chansyawn/zucc-auto-check#zucc-autocheck-%E6%B5%99%E5%A4%A7%E
        runs-on: ubuntu-latest
        steps:
          - name: Checkout codes
-           uses: actions/checkout@v2
+           uses: actions/checkout@v3
          - name: Set up Python
-           uses: actions/setup-python@v2
+           uses: actions/setup-python@v3
            with:
              python-version: 3.7
          - name: Install dependencies
